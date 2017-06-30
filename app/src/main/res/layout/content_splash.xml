@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gadhvi.newsfeeds.Splash"
+    tools:showIn="@layout/activity_splash"
+    android:gravity="center"
+    android:id="@+id/spalshlin"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tech_news"
+        android:id="@+id/splashimage"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:layout_margin="2dp"
+    android:padding="10dp"
+    android:id="@+id/splashtext"
+    android:text="Welcome to Tech News Explore New things here. "
+    style="@style/MyStyle" />
+</LinearLayout>
